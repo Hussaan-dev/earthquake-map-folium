@@ -24,19 +24,19 @@ This map uses Python's `pandas` library to read earthquake data and `folium` to 
 Here are some glimpses of what the map looks like:
 
 ### Global View
-[![Map Overview](images/Screenshot%202025-06-21%20113439.jpg)](images/Screenshot%202025-06-21%20113439.jpg)
+[![Map Overview](images/Screenshot%202025-06-21%20113439.png)](images/Screenshot%202025-06-21%20113439.png)
 *A look at the whole map, showing where earthquakes are spread out.*
 
 ### Closer Look at a Region
-[![Zoomed-in Area](images/Screenshot%202025-06-21%20113624.jpg)](images/Screenshot%202025-06-21%20113624.jpg)
+[![Zoomed-in Area](images/Screenshot%202025-06-21%20113624.png)](images/Screenshot%202025-06-21%20113624.png)
 *Zoomed in to see more detail, with earthquake dots and plate lines.*
 
 ### Grouped Earthquakes (Clusters)
-[![Marker Cluster Example](images/Screenshot%202025-06-21%20113717.jpg)](images/Screenshot%2025-06-21%20113717.jpg)
+[![Marker Cluster Example](images/Screenshot%202025-06-21%20113717.png)](images/Screenshot%202025-06-21%20113717.png)
 *This shows how lots of earthquakes close by get neatly grouped into one big circle.*
 
 ### Earthquake Details Popup
-[![Popup Detail](images/Screenshot%202025-06-21%20113741.jpg)](images/Screenshot%202025-06-21%20113741.jpg)
+[![Popup Detail](images/Screenshot%202025-06-21%20113741.png)](images/Screenshot%202025-06-21%20113741.png)
 *What you see when you click on an earthquake dot – its magnitude, where it was, and the time.*
 
 *(**Pro Tip:** Clicking on any of these images will open them in full-size!)*
@@ -65,7 +65,11 @@ Make sure you have all the necessary files in one folder on your computer:
 * `EarthquakeAndPlates.py` (This is the main Python script)
 * `earthquakes.csv` (This is the raw data file for the earthquakes)
 * `plates.json` (This file contains the data for the tectonic plates)
-* **(Important for GitHub):** A folder named `images` that contains all the screenshots you want to display in this `README.md`.
+* **A folder named `images`** (inside your main project folder) that contains your four screenshots:
+    * `Screenshot 2025-06-21 113439.png`
+    * `Screenshot 2025-06-21 113624.png`
+    * `Screenshot 2025-06-21 113717.png`
+    * `Screenshot 2025-06-21 113741.png`
 
 ### 3. Run the Map!
 
@@ -105,3 +109,24 @@ This project is open-source, which means you can use and modify it! It's availab
 * **Hussaan-dev** - [https://github.com/Hussaan-dev](https://github.com/Hussaan-dev)
 
 ---
+
+**The absolute final and most important step to make the images appear on GitHub is this (if you haven't done it already):**
+
+You **must upload the actual `.png` screenshot files** (`Screenshot 2025-06-21 113439.png`, etc.) into a folder named **`images`** on your GitHub repository, **using the GitHub website**.
+
+Here are the simplified steps for that:
+
+1.  **Go to your GitHub repository's main page** in your web browser.
+2.  **Click on the `images` folder** if it already exists in your file list. If you *don't* see an `images` folder:
+    * Click the **"Add file"** button.
+    * Select **"Create new file"**.
+    * In the "Name your file..." box, type: `images/dummy.txt` (this is just to create the folder).
+    * Scroll down and click **"Commit new file"**.
+    * Then, click on the newly created `images` folder to go inside it. (You can delete `dummy.txt` from there later if you wish).
+3.  **Once you are *inside* the `images` folder on GitHub:**
+    * Click the **"Add file"** button.
+    * Select **"Upload files"**.
+    * **Drag and drop your four `.png` screenshot files** from your computer into the upload area.
+    * Scroll down, add a commit message (e.g., "Upload final screenshots"), and click **"Commit changes"**.
+
+After you finish that last step and refresh your GitHub repository page, your `README.md` should finally display all your images!
