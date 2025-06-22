@@ -31,13 +31,13 @@ Here are some glimpses of what the map looks like:
 [![Zoomed-in Area](images/Screenshot%202025-06-21%20113624.png)](images/Screenshot%202025-06-21%20113624.png)
 *Zoomed in to see more detail, with earthquake dots and plate lines.*
 
-### Grouped Earthquakes (Clusters)
-[![Marker Cluster Example](images/Screenshot%202025-06-21%20113717.png)](images/Screenshot%202025-06-21%20113717.png)
-*This shows how lots of earthquakes close by get neatly grouped into one big circle.*
-
 ### Earthquake Details Popup
-[![Popup Detail](images/Screenshot%202025-06-21%20113741.png)](images/Screenshot%202025-06-21%20113741.png)
+[![Marker Cluster Example](images/Screenshot%202025-06-21%20113717.png)](images/Screenshot%202025-06-21%20113717.png)
 *What you see when you click on an earthquake dot – its magnitude, where it was, and the time.*
+
+### Grouped Earthquakes (Clusters)
+[![Popup Detail](images/Screenshot%202025-06-21%20113741.png)](images/Screenshot%202025-06-21%20113741.png)
+*This shows how lots of earthquakes close by get neatly grouped into one big circle.*
 
 ---
 
